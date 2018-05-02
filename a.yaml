@@ -1,0 +1,147 @@
+{
+    "ApplicationName"  :   "Text value",
+    "AutoUpdateVersion"  :   true,
+    "BlobId"  :   "Text value",
+    "DeploymentOptions"  :   {
+        "HowToInstall"  :   {
+            "AdminPrivileges"  :   true,
+            "DeviceRestart"  :   "Text value",
+            "InstallCommand"  :   "Text value",
+            "InstallContext"  :   "Text value",
+            "InstallTimeoutInMinutes"  :   2147483647,
+            "InstallerRebootExitCode"  :   "Text value",
+            "InstallerSuccessExitCode"  :   "Text value",
+            "RetryCount"  :   2147483647,
+            "RetryIntervalInMinutes"  :   2147483647
+        },
+        "WhenToCallInstallComplete"  :   {
+            "CriteriaList"  :   [
+                {
+                    "AppCriteria"  :   {
+                        "ApplicationIdentifier"  :   "Text value",
+                        "BuildNumber"  :   32767,
+                        "MajorVersion"  :   32767,
+                        "MinorVersion"  :   32767,
+                        "RevisionNumber"  :   32767,
+                        "VersionCondition"  :   "Text value"
+                    },
+                    "CriteriaType"  :   "Text value",
+                    "FileCriteria"  :   {
+                        "BuildNumber"  :   32767,
+                        "MajorVersion"  :   32767,
+                        "MinorVersion"  :   32767,
+                        "ModifiedOn"  :   "Text value",
+                        "Path"  :   "Text value",
+                        "RevisionNumber"  :   32767,
+                        "VersionCondition"  :   "Text value"
+                    },
+                    "LogicalCondition"  :   "Text value",
+                    "RegistryCriteria"  :   {
+                        "KeyName"  :   "Text value",
+                        "KeyType"  :   "Text value",
+                        "KeyValue"  :   "Text value",
+                        "Path"  :   "Text value"
+                    }
+                }
+            ],
+            "CustomScript"  :   {
+                "CommandToRunTheScript"  :   "Text value",
+                "CustomScriptFileBlodId"  :   2147483647,
+                "ScriptType"  :   "Text value",
+                "SuccessExitCode"  :   2147483647
+            },
+            "IdentifyApplicationBy"  :   "Text value",
+            "UseAdditionalCriteria"  :   true
+        },
+        "WhenToInstall"  :   {
+            "DataContingencies"  :   [
+                {
+                    "AppCriteria"  :   {
+                        "ApplicationIdentifier"  :   "Text value",
+                        "BuildNumber"  :   32767,
+                        "MajorVersion"  :   32767,
+                        "MinorVersion"  :   32767,
+                        "RevisionNumber"  :   32767,
+                        "VersionCondition"  :   "Text value"
+                    },
+                    "CriteriaType"  :   "Text value",
+                    "FileCriteria"  :   {
+                        "BuildNumber"  :   32767,
+                        "MajorVersion"  :   32767,
+                        "MinorVersion"  :   32767,
+                        "ModifiedOn"  :   "Text value",
+                        "Path"  :   "Text value",
+                        "RevisionNumber"  :   32767,
+                        "VersionCondition"  :   "Text value"
+                    },
+                    "LogicalCondition"  :   "Text value",
+                    "RegistryCriteria"  :   {
+                        "KeyName"  :   "Text value",
+                        "KeyType"  :   "Text value",
+                        "KeyValue"  :   "Text value",
+                        "Path"  :   "Text value"
+                    }
+                }
+            ],
+            "DevicePowerRequired"  :   2147483647,
+            "DiskSpaceRequiredInKb"  :   2147483647,
+            "RamRequiredInMb"  :   2147483647
+        }
+    },
+    "Description"  :   "Text value",
+    "Developer"  :   "Text value",
+    "DeveloperEmail"  :   "Text value",
+    "DeveloperPhone"  :   "Text value",
+    "DeviceType"  :   "Text value",
+    "EnableProvisioning"  :   true,
+    "FileName"  :   "Text value",
+    "FilesOptions"  :   {
+        "AppDependenciesList"  :   [
+            {
+                "ApplicationDependencyId"  :   2147483647
+            }
+        ],
+        "AppPatchesList"  :   [
+            {
+                "PatchBlobId"  :   2147483647,
+                "PatchType"  :   "Text value"
+            }
+        ],
+        "AppTransformsList"  :   [
+            {
+                "TransformBlobId"  :   2147483647
+            }
+        ],
+        "ApplicationUnInstallProcess"  :   {
+            "CustomScript"  :   {
+                "CustomScriptType"  :   "Text value",
+                "UninstallCommand"  :   "Text value",
+                "UninstallScriptBlobId"  :   2147483647
+            },
+            "UseCustomScript"  :   true
+        }
+    },
+    "IsDependencyFile"  :   true,
+    "LocationGroupId"  :   2147483647,
+    "MsiDeploymentParamModel"  :   {
+        "CommandLineArguments"  :   "Text value",
+        "InstallTimeoutInMinutes"  :   2147483647,
+        "RetryCount"  :   2147483647,
+        "RetryIntervalInMinutes"  :   2147483647
+    },
+    "PushMode"  :   "Text value",
+    "SupportEmail"  :   "Text value",
+    "SupportPhone"  :   "Text value",
+    "SupportedModels"  :   {
+        "Model"  :   [
+            {
+                "ApplicationId"  :   2147483647,
+                "ModelId"  :   2147483647,
+                "ModelName"  :   "Text value"
+            }
+        ]
+    },
+    "SupportedProcessorArchitecture"  :   "Text value",
+    "TransactionId"  :   "Text value"
+}
+
